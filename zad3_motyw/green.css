@@ -1,0 +1,60 @@
+/* 1. Зміна шрифту та налаштування відступів для всієї сторінки */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f8f0; /* Дуже світлий зеленувато-сірий фон сторінки */
+    color: #333333;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px; /* Обмежуємо ширину, щоб на великих моніторах текст не розтягувався на весь екран */
+}
+
+/* 2. Головний зелений колір для всіх заголовків */
+h1, h2, h3 {
+    color: #2e8b57; /* Колір "Морська зелень" (SeaGreen) */
+    border-bottom: 1px solid #c8e6c9; /* Легка лінія під заголовками для краси */
+    padding-bottom: 5px;
+}
+
+/* 3. Відступи та дизайн для кожної секції */
+section {
+    background-color: #ffffff; /* Білий фон для блоків з текстом */
+    margin-bottom: 25px;       /* Зовнішній відступ знизу */
+    padding: 20px;             /* Внутрішній відступ */
+    border-left: 6px solid #2e8b57; /* Зелена лінія зліва, як акцент */
+    border-radius: 8px;        /* Заокруглені кути блоків */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Легка тінь для об'єму */
+}
+
+/* Вирівнювання шапки сайту по центру */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+img {
+    width: 200px;              
+    border-radius: 50%;        
+    border: 4px solid #2e8b57; 
+    margin-top: 10px;
+}
+
+
+a {
+    color: #008000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005000; 
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666666;
+}
