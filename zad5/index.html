@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Luzhniak Volodymyr</title>
+    <link id="theme-style" rel="stylesheet" href="green.css">
+</head>
+<body>
+
+    <header>
+        <h1>Luzhniak Volodymyr</h1>
+        <img src="photo.jpg" alt="Zdjęcie profilowe Luzhniak Volodymyr">
+        
+        <div style="margin-top: 20px;">
+            <button onclick="toggleTheme()" style="padding: 10px; cursor: pointer;">Zmień motyw</button>
+            <button onclick="toggleSection()" style="padding: 10px; cursor: pointer;">Pokaż/Ukryj Umiejętności</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:v.luzhniak@example.com">v.luzhniak@example.com</a></p>
+            <p>Telefon: <a href="tel:+48111222333">+48 111 222 333</a></p>
+            <p>Miasto: Warszawa</p>
+            <p>Moje profile:</p>
+            <ul>
+                <li><a href="https://github.com/s77448" target="_blank" rel="noopener noreferrer">Mój profil GitHub</a></li>
+                <li><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">Mój profil LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p><strong>Numer indeksu: s77448</strong></p>
+            <p>Jestem studentem na uczelni Vistula w Warszawie. Interesuję się nowymi technologiami, sprzętem komputerowym oraz grami wideo.</p>
+        </section>
+
+        <section id="skills-section">
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Składanie i diagnostyka sprzętu komputerowego</li>
+                <li>Podstawy tworzenia stron WWW (HTML, CSS, JS)</li>
+                <li>Projektowanie schematów baz danych</li>
+                <li>Praca z układami elektronicznymi i techniką cyfrową</li>
+                <li>Język angielski (komunikatywny)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Projekt akademicki - Bazy danych</h3>
+                <p>Projektowanie i tworzenie struktury relacyjnej bazy danych na potrzeby zaliczenia przedmiotu.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Napisz do mnie</h2>
+            <form id="contact-form">
+                <label for="imie">Imię:</label><br>
+                <input type="text" id="imie" name="imie" style="margin-bottom: 10px;"><br>
+
+                <label for="nazwisko">Nazwisko:</label><br>
+                <input type="text" id="nazwisko" name="nazwisko" style="margin-bottom: 10px;"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email" style="margin-bottom: 10px;"><br>
+
+                <label for="wiadomosc">Wiadomość:</label><br>
+                <textarea id="wiadomosc" name="wiadomosc" rows="4" style="margin-bottom: 10px; width: 100%; max-width: 400px;"></textarea><br>
+
+                <button type="submit" style="padding: 10px; cursor: pointer;">Wyślij formularz</button>
+            </form>
+            
+            <div id="form-message" style="margin-top: 15px; font-weight: bold;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Luzhniak Volodymyr. Numer albumu: s77448.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
